@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    {{>h_main}}
+    <link rel="stylesheet" href="/css/register.css">
+    <title>register</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    {{>navbar}}
+    <!-- register form -->
+    <div class="registerfrm" id="outerrgstrfrm">
+      <div class="registerfrm1" id="innerrgstrfrm">
+        <label class="fs-2" >Register the new Student!!</label>
+        <form action="/uploadfile" method="post" class="upload">
+             <input type="file" id="fileUpload" >
+              <input type="submit" id="upload" value="upload">
+        </form>
+          <form autocomplete="off" action="/sregister" method="post" class="registerfrm2">
+            <label for="nme">Enter student name:</label>
+            <input type="text" placeholder="name" id="nme" name="name">
+            <label for="fnme">Enter father name:</label>
+            <input type="text" placeholder="father name" id="fnme" name="fname">
+            <label for="mail">Enter student e-mail:</label>
+            <input type="email" placeholder="email-id" id="mail" name="email">
+            <label for="mbno">Enter student mobile-no:</label>
+            <input type="text" placeholder="mobile-no" id="mbno" name="mb_nmbr">
+            <label for="dor">Enter date of registration:</label>
+            <input type="date" placeholder="dor" id="dor" name="dor">
+            <label for="dob">Enter student date of birth:</label>
+            <input type="date" placeholder="dob" id="dob" name="dob">
+            <label for="ano">Enter aadhar card no</label>
+            <input type="text" placeholder="ad-no" id="ano" name="ad_no">
+            <button type="submit" class="mt-2 btn btn-outline-danger btn-sm" id="asmt" id="smt1">submit</button>
+          </form>
+      </div>
+    </div>
+    <!-- footer -->
+    {{>footer}}
+    <script src="/script/lgout.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

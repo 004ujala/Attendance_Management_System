@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+
+.navbar{
+    width: 100vw;
+    height: 12vh;
+    position: relative;
+}
+li a span:hover{
+    color: blue;
+    font-size: 1rem;
+}
+/* attendance display */
+#show{
+    height: 26px;
+    background-color: gray;
+    border-radius: 8px;
+    width: 4rem;
+}
+.attenddsply{
+    overflow-y: scroll;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 76vh;
+    width: 100vw;
+    background-color: antiquewhite; 
+    color: rgb(0, 0, 0);
+}
+.inner1adsply{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table ,th,td{
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: 600;
+}
+th{
+   background: antiquewhite;
+}
+table th,td{
+    width: 12rem;
+    height: 2.5rem;
+    text-align: center;
+}
+.inner2dsply{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* footer */
+.footer{
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+.fp{
+    margin: auto;
+    font-size: 1rem;
+
+}

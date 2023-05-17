@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100vw;
+    height: 12vh;
+    position: relative;
+}
+li a span:hover{
+    color: blue;
+    font-size: 1rem;
+}
+
+.carousel img{
+    width: 100vw;
+    height:76vh;
+}
+.hmcrsl{
+    width: 100vw;
+    height: 76vh;
+}
+
+.hmcnt{
+    width: 100vw;
+    height: 76vh;
+    background-color:antiquewhite;
+    color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cnt h1{
+    font-size: 4rem;
+}
+.footer{
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+.fp{
+    margin: auto;
+    font-size: 1rem;
+
+}

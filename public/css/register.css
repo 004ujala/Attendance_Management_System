@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.navbar{
+    width: 100vw;
+    height: 12vh;
+    position: relative;
+}
+li a span:hover{
+    color: blue;
+    font-size: 1rem;
+}
+/* registration form */
+.registerfrm{
+    width: 100vw;
+    height: 76vh;
+    background-color: antiquewhite;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.registerfrm1{
+    width: 50vw;
+    height: 74vh;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.registerfrm2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 20vw ;
+    font-weight: 400;
+}
+
+
+
+
+
+/* footer */
+.footer{
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+.fp{
+    margin: auto;
+    font-size: 1rem;
+
+}

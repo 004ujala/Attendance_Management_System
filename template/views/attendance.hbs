@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  {{>h_main}}
+  <link rel="stylesheet" href="/css/attendance.css">
+  <title>attendance</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  {{>navbar}}
+
+  <!-- attendance taking display -->
+  <div class="attenddsply">
+    <div class="inner1adsply" id="indsply1">
+      <form class="inner2dsply my-5">
+        <table id="hlo">
+          <tr>
+            <th colspan="4">Attendance List</th>
+          </tr>
+          <tr>
+            <th>S-no</th>
+            <th>Name</th>
+            <th>ad-no</th>
+            <th>Absent</th>
+          </tr>
+          {{!-- <tr>
+            <td>1</td>
+            <td>Ujala</td>
+            <td>456654</td>
+            <td><button type="button" class="btn btn-outline-danger btn-sm" id="xyz1">P</button></td>
+          </tr> --}}
+          
+        </table>
+        <button type="submit" class="my-2 btn btn-outline-primary btn-sm" id="asmt"  >submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- footer -->
+  {{>footer}}
+  <script src="/script/data.js"></script>
+  <script src="/script/lgout.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
